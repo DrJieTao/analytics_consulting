@@ -133,13 +133,13 @@ Given the large class enrollment and the technical nature of the subject, it is 
 
 ## Course Policies
 
-__Note Taking__: While you are watching the class lectures, make sure you take notes. A separate presentation file will be provided to you via _Google Classroom_ for you to take notes. In most of the lecture notebooks, there are some exercise questions. You will need to submit exercise files after most of the classes. We will use a _buddy system_ in which students form 2-3 people groups for comparing notes and codes.
+__Note Taking__: While you are watching the class lectures, make sure you take notes. A separate presentation file will be provided to you via _Blackboard_ for you to take notes. In most of the lecture notebooks, there are some exercise questions. You will need to submit exercise files after most of the classes. We will use a _buddy system_ in which students form 2-3 people groups for comparing notes and codes.
 
 __Preparations__: To contribute to class discussions, you must spend adequate time prior to class preparing carefully all required tasks (e.g., readings, assignments). This is __mandatory__!
 
 __Respect and Dignity__: It is also important for each of us as individuals to respect each other. Treat your classmates with respect and dignity (I like to call this R&D). Listen carefully to the questions and comments while keeping an open mind for ideas. It is okay to disagree with certain viewpoints, but present your arguments in a courteous manner. Negative body language such as rolling your eyes, using phrases such as “that was a dumb idea”, or interrupting others to express disagreements runs counter to the spirit of positive learning environment and is not okay. At the end of the day, we would like to create a positive environment that is conducive to learning.
 
-__Professionalism__: As budding professionals and business majors, conduct yourself in a professional manner just as you would with an employer or colleague. Refrain for unprofessional behaviors such as arriving late to class, coming in and out of class, taking a nap in class, making unprofessional comments to other students and the instructor, and sending unprofessional comments. Out of respect for fellow students, all mobile communication and entertainment devices need to be turned off and kept off during the class. Only software tools required for the class (e.g. JupyterHub) or note taking software (e.g., Evernote) the class time.
+__Professionalism__: As budding professionals and business majors, conduct yourself in a professional manner just as you would with an employer or colleague. Refrain for unprofessional behaviors such as arriving late to class, coming in and out of class, taking a nap in class, making unprofessional comments to other students and the instructor, and sending unprofessional comments. Out of respect for fellow students, all mobile communication and entertainment devices need to be turned off and kept off during the class. Only software tools required for the class are allowed during class time.
 
 ## Other Course Policies
 
