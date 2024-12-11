@@ -17,7 +17,7 @@ Course Syllabus
 | Contact Info         |                                                                  |                                       |
 |:-------------------  |:-----------------------------------------------------------------|:------------------------------------- |
 | **Name:** Jie Tao    | **Contact:** jtao@fairfield.edu      | **Phone:** (203)254-4000 x 2232       |
-| **Office:** DSBN 347F | **Office Hours:** [Appointment System](https://calendly.com/jtao-4/office-hours), [Zoom](https://fairfield.zoom.us/j/9579872640) or in person        |                  |
+| **Office:** DSBN 347F | **Office Hours:** [Zoom](https://fairfield.zoom.us/j/9579872640)        |                  |
 
 ---
 
@@ -26,7 +26,7 @@ Course Syllabus
 :--- | :--- 
 **Course Number:** `DATA 6520` | **Credit Hours:** 3 | 
 **Prerequisites:** None | **Course Duration**: TBD |
-**Delivery Method:**  Async online and sync online (zoom) | **Meeting Time:** Extended Office Hour Only [Appointment System](https://calendly.com/jtao-4/office-hours), [Zoom](https://fairfield.zoom.us/j/9579872640) or in person  |
+**Delivery Method:**  Async online and sync online (zoom) | **Meeting Time:** [Zoom](https://fairfield.zoom.us/j/9579872640)  |
 
 ---
 
