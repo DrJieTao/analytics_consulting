@@ -84,7 +84,7 @@ This class is graded based on a point system (with a total of __1,000__ points),
 
 ---
 
-## Deliverables & Rubrics
+## Deliverables
 
 Completed notebooks should be submitted to Blackboard. __Submission in any other format will NOT be accepted.__ 
 
