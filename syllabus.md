@@ -24,9 +24,8 @@ Course Syllabus
 ## Course Information
 | **Title:** Analytics Consulting |  |
 :--- | :--- 
-**Course Number:** `DATA 6520` | **Credit Hours:** 3 | 
-**Prerequisites:** None | **Course Duration**: TBD |
-**Delivery Method:**  Async online and sync online (zoom) | **Meeting Time:** [Zoom](https://fairfield.zoom.us/j/9579872640)  |
+**Course Number:** `DATA 6520` | **Credit Hours:** 3 | **Prerequisites:** None |
+**Course Duration**: TBD |**Delivery Method:**  Async online and sync online (zoom) | **Meeting Time:** [Zoom](https://fairfield.zoom.us/j/9579872640)  |
 
 ---
 
