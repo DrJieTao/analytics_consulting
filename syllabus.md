@@ -92,39 +92,39 @@ Completed notebooks should be submitted to Blackboard. __Submission in any other
 
 | Criterion | Good (80-100%) | Fair (60-79%) | Bad (0-59%) |
 |-----------|----------------|---------------|-------------|
-| Problem Clarity | Precisely defined problem with clear objectives, scope, and measurable outcomes | Problem partially defined with some ambiguity in objectives or scope | Vague or poorly articulated problem with no clear objectives |
-| Business Relevance | Strong, direct connection to significant business challenge with quantifiable potential impact | Moderate business connection with limited or unclear potential impact | Minimal or no apparent business relevance |
-| GAI/LLM Application Potential | Innovative and comprehensive strategy for applying GAI/LLM with multiple potential solution pathways | Limited GAI/LLM application strategy with few potential approaches | No clear strategy or understanding of GAI/LLM application |
-| CRISP-DM Plan Comprehensiveness | All CRISP-DM stages comprehensively addressed with detailed, actionable steps | Most CRISP-DM stages covered with some gaps or lack of detail | Major CRISP-DM stages missing or poorly conceptualized |
-| Feasibility within Time Constraints | Highly realistic plan perfectly aligned with four-week course duration and resources | Mostly feasible plan with minor overambitious elements | Unrealistic plan that cannot be completed within course timeframe |
+| **Problem Clarity** | Precisely defined problem with clear objectives, scope, and measurable outcomes | Problem partially defined with some ambiguity in objectives or scope | Vague or poorly articulated problem with no clear objectives |
+| **Business Relevance** | Strong, direct connection to significant business challenge with quantifiable potential impact | Moderate business connection with limited or unclear potential impact | Minimal or no apparent business relevance |
+| **GAI/LLM Application Potential** | Innovative and comprehensive strategy for applying GAI/LLM with multiple potential solution pathways | Limited GAI/LLM application strategy with few potential approaches | No clear strategy or understanding of GAI/LLM application |
+| **CRISP-DM Plan Comprehensiveness** | All CRISP-DM stages comprehensively addressed with detailed, actionable steps | Most CRISP-DM stages covered with some gaps or lack of detail | Major CRISP-DM stages missing or poorly conceptualized |
+| **Feasibility within Time Constraints** | Highly realistic plan perfectly aligned with four-week course duration and resources | Mostly feasible plan with minor overambitious elements | Unrealistic plan that cannot be completed within course timeframe |
 
 ### Week 2: Data Collection and Preparation
 
 | Criterion | Good (80-100%) | Fair (60-79%) | Bad (0-59%) |
 |-----------|----------------|---------------|-------------|
-| Data Relevance | Collected data directly addresses the chosen use case | Data partially relevant to the use case | Data irrelevant or unrelated to the use case |
-| Data Quality | High-quality, clean data with clear documentation | Some data quality issues, basic documentation | Poor quality data, little to no documentation |
-| Data Quantity | Sufficient data volume for meaningful analysis | Limited data volume, may impact analysis | Insufficient data for any meaningful analysis |
-| Data Ethics and Privacy | Full compliance with data ethics and privacy standards | Minor ethical or privacy concerns | Major ethical or privacy violations |
+| **Data Relevance** | Collected data directly addresses the chosen use case | Data partially relevant to the use case | Data irrelevant or unrelated to the use case |
+| **Data Quality** | High-quality, clean data with clear documentation | Some data quality issues, basic documentation | Poor quality data, little to no documentation |
+| **Data Quantity** | Sufficient data volume for meaningful analysis | Limited data volume, may impact analysis | Insufficient data for any meaningful analysis |
+| **Data Ethics and Privacy** | Full compliance with data ethics and privacy standards | Minor ethical or privacy concerns | Major ethical or privacy violations |
 
 ### Week 3: AI Tool Familiarization
 
 | Criterion | Good (80-100%) | Fair (60-79%) | Bad (0-59%) |
 |-----------|----------------|---------------|-------------|
-| Tool Understanding | Demonstrates comprehensive understanding of the AI tool | Basic understanding of the tool's main features | Little to no understanding of the AI tool |
-| Data Integration | Successfully integrates data into the AI tool | Partial data integration with some issues | Unable to integrate data into the tool |
-| Initial Results | Produces meaningful initial results relevant to the use case | Some relevant results, but limited in scope | No meaningful results or irrelevant outputs |
-| Problem-Solving Approach | Clear strategy for using the tool to address the business problem | Basic approach to using the tool, lacks depth | No clear strategy for applying the tool |
+| **Tool Understanding** | Demonstrates comprehensive understanding of the AI tool | Basic understanding of the tool's main features | Little to no understanding of the AI tool |
+| **Data Integration** | Successfully integrates data into the AI tool | Partial data integration with some issues | Unable to integrate data into the tool |
+| **Initial Results** | Produces meaningful initial results relevant to the use case | Some relevant results, but limited in scope | No meaningful results or irrelevant outputs |
+| **Problem-Solving Approach** | Clear strategy for using the tool to address the business problem | Basic approach to using the tool, lacks depth | No clear strategy for applying the tool |
 
 ### Week 4: Solution Presentation
 
 | Criterion | Good (80-100%) | Fair (60-79%) | Bad (0-59%) |
 |-----------|----------------|---------------|-------------|
-| Solution Quality | Comprehensive, innovative solution addressing the business problem | Partial solution with some gaps or limitations | Inadequate or irrelevant solution |
-| Presentation Clarity | Clear, well-structured presentation with effective communication | Somewhat clear presentation with minor issues | Unclear or poorly structured presentation |
-| Business Impact | Clearly demonstrates significant potential business impact | Some potential impact, but not fully articulated | Little to no demonstrated business impact |
-| GAI/LLM Application | Innovative and effective use of GAI/LLM in the solution | Basic application of GAI/LLM with limited depth | Poor or no application of GAI/LLM concepts |
-| Q&A Performance | Confidently and accurately answers all questions | Adequately answers most questions | Unable to answer most questions satisfactorily |
+| **Solution Quality** | Comprehensive, innovative solution addressing the business problem | Partial solution with some gaps or limitations | Inadequate or irrelevant solution |
+| **Presentation Clarity** | Clear, well-structured presentation with effective communication | Somewhat clear presentation with minor issues | Unclear or poorly structured presentation |
+| **Business Impact** | Clearly demonstrates significant potential business impact | Some potential impact, but not fully articulated | Little to no demonstrated business impact |
+| **GAI/LLM Application** | Innovative and effective use of GAI/LLM in the solution | Basic application of GAI/LLM with limited depth | Poor or no application of GAI/LLM concepts |
+
 
 ### Participation and Professionalism
 Given the large class enrollment and the technical nature of the subject, it is critical that everyone take a professional approach to learning the material. Students are expected to come to class prepared and then participate in all activities to the best of their abilities. Cheating, free-riding, and other unprofessional behavior will not be tolerated.
