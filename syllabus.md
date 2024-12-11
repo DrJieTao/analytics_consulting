@@ -146,7 +146,7 @@ __Professionalism__: As budding professionals and business majors, conduct yours
 
 __Course Materials__: All the teaching materials, including assignments and exams, are the intellectual properties of Fairfield University – distributing such materials without written approval is strongly prohibited.
 
-__Late Submissions__: **NO** late submissions will be accepted in thei course.
+__Late Submissions__: **NO** late submissions will be accepted in this course.
 
 
 __Academic Honesty__: Fairfield University’s primary purpose is the pursuit of academic excellence. All members of the Fairfield University community share responsibility for establishing and maintaining appropriate standards of academic honesty and integrity. This is possible only in an atmosphere where discovery and communication of knowledge are marked by scrupulous, unqualified honesty. In the event of such dishonesty, professors are to award a grade of zero for the project, paper, or examination in question, and may record an F for the course itself.
