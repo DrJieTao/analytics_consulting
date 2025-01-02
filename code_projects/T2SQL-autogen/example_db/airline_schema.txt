@@ -1,0 +1,53 @@
+Table: Airlines
+CREATE TABLE Airlines (
+    AirlineID INTEGER PRIMARY KEY,
+    AirlineName TEXT,
+    Country TEXT,
+    ContactEmail TEXT
+)
+--------------------
+Table: Airports
+CREATE TABLE Airports (
+    AirportID INTEGER PRIMARY KEY,
+    AirportName TEXT,
+    City TEXT,
+    Country TEXT,
+    IATA_Code TEXT
+)
+--------------------
+Table: Flights
+CREATE TABLE Flights (
+    FlightID INTEGER PRIMARY KEY,
+    FlightNumber TEXT,
+    Source INTEGER,
+    Destination INTEGER,
+    DepartureTime TEXT,
+    ArrivalTime TEXT,
+    Airline INTEGER,
+    FOREIGN KEY (Source) REFERENCES Airports(AirportID),
+    FOREIGN KEY (Destination) REFERENCES Airports(AirportID),
+    FOREIGN KEY (Airline) REFERENCES Airlines(AirlineID)
+)
+--------------------
+Table: Passengers
+CREATE TABLE Passengers (
+    PassengerID INTEGER PRIMARY KEY,
+    FirstName TEXT,
+    LastName TEXT,
+    DateOfBirth TEXT,
+    Email TEXT,
+    Phone TEXT
+)
+--------------------
+Table: Tickets
+CREATE TABLE Tickets (
+    TicketID INTEGER PRIMARY KEY,
+    PassengerID INTEGER,
+    FlightID INTEGER,
+    BookingDate TEXT,
+    SeatNumber TEXT,
+    Price REAL,
+    FOREIGN KEY (PassengerID) REFERENCES Passengers(PassengerID),
+    FOREIGN KEY (FlightID) REFERENCES Flights(FlightID)
+)
+--------------------

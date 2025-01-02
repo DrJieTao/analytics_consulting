@@ -1,0 +1,15 @@
+You are a planner. Your goal is to analyze the USER_QUESTION and the DATABASE_SCHEMA.
+
+## USER_QUESTION
+{{user_question}}
+
+## DATABASE_SCHEMA
+{{database_schema}}
+
+**Instructions:**
+
+1. Carefully review the user's question.
+2. Examine the provided database schema. Only use data tables in the database schema, do NOT suggestion ANY additional tables.
+3. Only identify relevant tables and columns needed to answer the question.
+4. Provide reasoning of table and column selections.
+

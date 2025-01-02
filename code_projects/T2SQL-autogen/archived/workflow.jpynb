@@ -1,0 +1,81 @@
+import autogen
+
+# Define LLM configurations for different models
+llm_configs = {
+    "planner": {
+        "config_list": [
+            {
+                "model": "macro-o1",
+                "base_url": "http://localhost:11434/v1",
+                "api_type": "ollama",
+            },
+        ]
+    },
+    "db_engineer": {
+        "config_list": [
+            {
+                "model": "qwen-2.5-coder-14b",
+                "base_url": "http://localhost:11434/v1",
+                "api_type": "ollama",
+            },
+        ]
+    },
+    "db_admin_reporter": {
+        "config_list": [
+            {
+                "model": "llama3.2:3b",
+                "base_url": "http://localhost:11434/v1",
+                "api_type": "ollama",
+            },
+        ]
+    }
+}
+
+llm_config_planner = llm_configs["planner"]
+llm_config_db_engineer = llm_configs["db_engineer"]
+llm_config_db_admin_reporter = llm_configs["db_admin_reporter"]
+
+# Define the planner agent
+planner = autogen.AssistantAgent(
+    name="planner",
+    llm_config=llm_config_planner,
+    system_message="You are a planner. Analyze the user's question and the database schema to identify the relevant tables and columns. Provide a clear plan of which tables and columns are needed to answer the question.",
+)
+
+# Define the optional critic agent (assuming you want to keep using macro-o1)
+critic = autogen.AssistantAgent(
+    name="critic",
+    llm_config=llm_config_planner,
+    system_message="You are a critic. Review the plan proposed by the planner and challenge it if necessary. Ensure the plan is comprehensive and accurate for answering the user's question based on the database schema.",
+)
+
+# Define the database engineer agent
+db_engineer = autogen.AssistantAgent(
+    name="database_engineer",
+    llm_config=llm_config_db_engineer,
+    system_message="You are a database engineer. Based on the identified tables and columns, write an SQL query to answer the user's question.",
+)
+
+# Define the database admin agent
+db_admin = autogen.UserProxyAgent(
+    name="database_admin",
+    human_input_mode="NEVER",
+    max_consecutive_auto_reply=10,
+    code_execution_config={"work_dir": "db_admin_workdir"},
+    llm_config=llm_config_db_admin_reporter, # Apply the llama3.2:3b config
+)
+
+# Define the reporter agent
+reporter = autogen.AssistantAgent(
+    name="reporter",
+    llm_config=llm_config_db_admin_reporter, # Apply the llama3.2:3b config
+    system_message="You are a reporter. Take the user's original question and the result from the database query and write a clear and concise answer to the user.",
+)
+
+# User proxy agent to initiate the conversation (can use the default config or specify one)
+user_proxy = autogen.UserProxyAgent(
+    name="user_proxy",
+    human_input_mode="TERMINATE",
+    max_consecutive_auto_reply=5,
+    code_execution_config=False,
+)

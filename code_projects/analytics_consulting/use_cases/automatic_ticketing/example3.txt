@@ -1,0 +1,49 @@
+
+<input>
+  <problem_description>Multiple users reporting slow internet connectivity.</problem_description>
+  <action_plan>
+    <step>Check internet service provider (ISP) status.</step>
+    <step>Restart the main router.</step>
+    <step>Check network traffic for bottlenecks.</step>
+    <step>Investigate individual user devices for issues.</step>
+  </action_plan>
+  <staff_expertise>
+    <staff_member>
+      <name>Grace</name>
+      <expertise>Networking (Advanced), Troubleshooting (Intermediate)</expertise>
+      <current_workload>1 ticket</current_workload>
+      <availability>High</availability>
+    </staff_member>
+    <staff_member>
+      <name>Henry</name>
+      <expertise>Hardware (Intermediate), User Support (Advanced)</expertise>
+      <current_workload>4 tickets</current_workload>
+      <availability>Moderate</availability>
+    </staff_member>
+    <staff_member>
+      <name>Isabelle</name>
+      <expertise>Networking (Beginner), User Support (Intermediate)</expertise>
+      <current_workload>0 tickets</current_workload>
+      <availability>Very High</availability>
+    </staff_member>
+  </staff_expertise>
+</input>
+
+<output>
+  ## Ticket Assignments
+
+  | Ticket ID | Task Description                                | Assigned To | Dependencies | Priority |
+  | :-------- | :------------------------------------------------ | :---------- | :----------- | :------- |
+  | T-001     | Check internet service provider (ISP) status      | Grace       | None         | High     |
+  | T-002     | Restart the main router                         | Grace       | T-001        | High     |
+  | T-003     | Check network traffic for bottlenecks            | Grace       | T-002        | Medium   |
+  | T-004     | Investigate individual user devices for issues   | Isabelle    | T-003        | Low      |
+
+  ## Dashboard View
+
+  | Staff Member | Assigned Tickets   | Current Workload After Assignment | Notes                                        |
+  | :----------- | :----------------- | :-------------------------------- | :------------------------------------------- |
+  | Grace        | T-001, T-002, T-003 | 4 tickets                         | Handles initial networking diagnosis.      |
+  | Henry        | None               | 4 tickets                         | Available for other hardware/user issues. |
+  | Isabelle     | T-004              | 1 ticket                          | Good fit for user-level troubleshooting.    |
+</output>

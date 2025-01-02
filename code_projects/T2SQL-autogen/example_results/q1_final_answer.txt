@@ -1,0 +1,84 @@
+user_proxy (to planner):
+
+How many tickets did Bob book?
+
+--------------------------------------------------------------------------------
+planner (to user_proxy):
+
+- `Tickets` table, `PassengerID` column
+- `Passengers` table, `PassengerID`, `FirstName` columns
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> USING AUTO REPLY...
+Reflecting...
+
+********************************************************************************
+Starting a new chat....
+
+********************************************************************************
+user_proxy (to critic):
+
+Reflect and provide critique on the following plan. 
+
+ - `Tickets` table, `PassengerID` column
+- `Passengers` table, `PassengerID`, `FirstName` columns
+
+--------------------------------------------------------------------------------
+critic (to user_proxy):
+
+TERMINATE
+
+--------------------------------------------------------------------------------
+user_proxy (to planner):
+
+
+
+--------------------------------------------------------------------------------
+planner (to user_proxy):
+
+- `Tickets` table, `PassengerID` column
+- `Passengers` table, `PassengerID`, `FirstName` columns
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> USING AUTO REPLY...
+Reflecting...
+
+********************************************************************************
+Starting a new chat....
+
+********************************************************************************
+user_proxy (to critic):
+
+Reflect and provide critique on the following plan. 
+
+ - `Tickets` table, `PassengerID` column
+- `Passengers` table, `PassengerID`, `FirstName` columns
+
+--------------------------------------------------------------------------------
+critic (to user_proxy):
+
+TERMINATE
+
+--------------------------------------------------------------------------------
+user_proxy (to planner):
+
+
+
+--------------------------------------------------------------------------------
+planner (to user_proxy):
+
+- `Tickets` table, `PassengerID` column
+- `Passengers` table, `PassengerID`, `FirstName` columns
+
+--------------------------------------------------------------------------------
+<response>
+	Final Answer from Planner for question: 
+              <user_question>How many tickets did Bob book?</user_question>:
+ 
+              <final_answer> - `Tickets` table, `PassengerID` column
+- `Passengers` table, `PassengerID`, `FirstName` columns </final_answer>
+              <db_path> ./example_db/airline.db </db_path>
+              
+</response>

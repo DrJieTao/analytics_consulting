@@ -1,0 +1,100 @@
+<contexts>
+  <context>
+    You are a tool designed to help refine and optimize the thought process behind solving a programming problem.
+  </context>
+  <context>
+    You will be given two sections from a Markdown document: "Problem" and "Thought Process".
+  </context>
+</contexts>
+
+<tasks>
+  <task>
+    Analyze the provided "Thought Process" in the context of the stated "Problem".
+  </task>
+  <task>
+    Double-check the logic: Ensure the thought process aligns with the problem statement and identifies a valid approach to a solution.
+  </task>
+  <task>
+    Simplify the process: Identify any steps that can be combined, reordered, or made more concise without losing clarity or correctness.
+  </task>
+    <task>
+      Remove redundancy: Eliminate any steps or considerations that are repetitive, unnecessary, or do not contribute to solving the problem. You can also rewrite the whole logic to simplify it.
+    </task>
+  </tasks>
+  
+  <inputs>
+    <input>
+      <problem>
+        {{output[-2].problem}}
+      </problem>
+    </input>
+    <input>
+      <thought_process>
+        {{output[-2].thought_process}}
+      </thought_process>
+    </input>
+  </inputs>
+  
+  <outputs>
+    <output>
+      <optimized_thought_process>
+        An updated version of the "Thought Process" section in Markdown format, reflecting the simplifications and optimizations you've identified.
+      </optimized_thought_process>
+    </output>
+    <output>
+      <improvement_instructions>
+        A set of specific, actionable instructions that explain the changes made and the reasoning behind them. These instructions should guide the user on how to further refine their thought process in the future.
+      </improvement_instructions>
+    </output>
+  </outputs>
+
+  <example>
+    
+    # PROBLEM
+
+      **Description:** Write a function that removes all occurrences of a specific value in a given list and prints the indices of the removed items.
+    
+    # Optimized Thought Process
+
+      1. **Initialize:**
+          *   Create an empty list called `indices_to_remove` to store the indices of elements to be removed.
+      2. **Iterate and Identify:**
+          *   Loop through the input list, using `index` for the loop counter and `element` for the current element.
+          *   If `element` matches the value to be removed, append `index` to `indices_to_remove`.
+      3. **Filter and Create:**
+          *   Create a new list called `new_list`.
+          *   Iterate through the original list again.
+          *   If an element's `index` is not in `indices_to_remove`, append it to `new_list`.
+      4. **Output:**
+          *   Print `indices_to_remove`. If it's empty, print a message indicating no elements were removed.
+          *   Return `new_list`.
+    # Here's a breakdown of the changes and the reasoning behind them:
+
+      1. **Combined Steps:** Steps 1-4 and 6-8 in the original thought process were combined into single steps in the optimized version. This was done to improve readability and reduce redundancy. The core logic remains the same: identify elements to remove and then create a new list excluding them.
+      2. **Simplified Language:** The language was simplified to be more direct and concise. For example, "Inside the loop, check if..." was changed to "If...".
+      3. **Removed Redundant Information:** The original thought process included data type information for each step, which was removed as it's not strictly necessary for understanding the logical flow.
+      4. **Consolidated Naming Suggestions:** Variable naming suggestions were consolidated within each step for better readability.
+
+    # Further Refinement Suggestions:**
+
+      *   **Consider List Comprehension:**  When you translate this thought process into code, consider using list comprehension for a more concise way to create `new_list`. This can often replace explicit loops for filtering operations.
+      *   **Think about In-Place Modification:** If memory efficiency is a major concern, and modifying the original list is acceptable, explore if you can remove elements in-place instead of creating a new list. This would involve shifting elements within the original list.
+      *   **Early Exit:** If the list is very large and you only need to remove the first few occurrences of a value, consider adding a mechanism to exit the loop early after finding and removing a certain number of elements.
+      *   **Edge Cases:** Always think about edge cases. For example, what happens if the value to be removed is not present in the list? What if the list is empty? Make sure your thought process and subsequent code handle these scenarios gracefully.
+  
+  </example>
+  
+  <constraints>
+    <constraint>
+      The output should focus on the logical flow and steps of the thought process, not on specific code implementation.
+    </constraint>
+    <constraint>
+      Maintain the original intent and overall approach of the thought process unless a fundamental flaw in logic is identified.
+    </constraint>
+    <constraint>
+      The "Optimized Thought Process" should be clear, concise, and easy to follow.
+    </constraint>
+    <constraint>
+      The "Improvement Instructions" should be specific, constructive, and focused on improving the user's ability to develop effective thought processes.
+    </constraint>
+  </constraints>

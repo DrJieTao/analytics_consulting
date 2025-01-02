@@ -1,0 +1,102 @@
+<prompt>
+  <objective>
+    Guide a student to solve the input as a Python problem by providing a step-by-step approach without revealing the code directly.
+  </objective>
+  <input>
+   Write a function (remove_val(val, lst)) that removes all occurrences of a specific value (val) in a given list (lst). Also, print out the indices of the items being removed, if any. 
+  </input>
+  <output>
+    <description>
+      A numbered list of steps that logically lead to the solution. Each step should:
+    </description>
+    <step_characteristics>
+      <characteristic>
+        <name>Be Actionable</name>
+        <description>Describe a specific task the student should perform.</description>
+      </characteristic>
+      <characteristic>
+        <name>Be Code-Agnostic</name>
+        <description>Avoid using Python keywords or code snippets.</description>
+      </characteristic>
+      <characteristic>
+        <name>Be Granular</name>
+        <description>Break down complex tasks into smaller, manageable sub-steps.</description>
+      </characteristic>
+      <characteristic>
+        <name>Be Comment-Friendly</name>
+        <description>Be suitable for use as comments within the final code.</description>
+      </characteristic>
+      <characteristic>
+        <name>Include Naming Suggestions</name>
+        <description>Offer professional and descriptive suggestions for variable and function names, where applicable.</description>
+      </characteristic>
+    </step_characteristics>
+  </output>
+  <example>
+    <input_problem>
+      Write a function called `inside_out()` which takes a nested list as input. The function should modify the list such that each inner list becomes an element within a new outer list, maintaining the same position as it had in the original nested list.
+    </input_problem>
+    <expected_output>
+      <solution>
+        <step>
+          <number>STEP 1</number>
+          <instruction>Create a new empty list that will eventually hold the modified structure.</instruction>
+          <naming_suggestion>
+            <variable_name>modified_list</variable_name>
+          </naming_suggestion>
+        </step>
+        <step>
+          <number>STEP 2</number>
+          <instruction>Go through each element of the original nested list.</instruction>
+          <naming_suggestion>
+            <variable_name>index</variable_name>
+            <description>Suggested variable name for the loop counter</description>
+          </naming_suggestion>
+          <naming_suggestion>
+            <variable_name>current_element</variable_name>
+            <description>Suggested variable name for the current element</description>
+          </naming_suggestion>
+        </step>
+        <step>
+          <number>STEP 3</number>
+          <instruction>For each element, check if it is a list itself.</instruction>
+        </step>
+        <step>
+          <number>STEP 4</number>
+          <instruction>If the element is a list, append it to the `modified_list`.</instruction>
+        </step>
+        <step>
+          <number>STEP 5</number>
+          <instruction>If the element is not a list, create a new list containing only that element.</instruction>
+          <naming_suggestion>
+            <variable_name>new_inner_list</variable_name>
+          </naming_suggestion>
+        </step>
+        <step>
+          <number>STEP 6</number>
+          <instruction>Append this `new_inner_list` to the `modified_list`.</instruction>
+        </step>
+        <step>
+          <number>STEP 7</number>
+          <instruction>After processing all elements, return the `modified_list`.</instruction>
+        </step>
+        <function_naming>
+          <instruction>The function should be named `inside_out` as specified in the problem description.</instruction>
+        </function_naming>
+      </solution>
+    </expected_output>
+  </example>
+  <constraints>
+    <constraint>Do not provide any Python code in the output.</constraint>
+    <constraint>Focus on the logical flow and algorithmic thinking.</constraint>
+    <constraint>Ensure the steps are clear, concise, and easy to understand for a beginner.</constraint>
+    <constraint>The steps should be usable as comments in the final Python code.</constraint>
+  </constraints>
+  <additional_notes>
+    <note>You can adapt the level of detail in the steps based on the complexity of the problem.</note>
+    <note>Encourage the use of descriptive variable and function names to improve code readability.</note>
+    <note>You can optionally include hints or explanations for certain steps, but keep them code-free.</note>
+    <note>The goal is to guide the student towards the solution, not to give it away directly.</note>
+  </additional_notes>
+  
+</prompt>

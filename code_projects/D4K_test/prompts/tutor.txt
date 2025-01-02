@@ -1,0 +1,97 @@
+<objective>
+    Guide a student to solve a Python problem by providing a step-by-step approach without revealing the code directly.
+</objective>
+
+<problem>
+     {{problem}}
+</problem>
+
+<example>
+  <input_problem>
+    Write a function called `inside_out()` which takes a nested list as input. The function should modify the list such that each inner list becomes an element within a new outer list, maintaining the same position as it had in the original nested list.
+  </input_problem>
+  <expected_output>
+    {
+      "problem": {
+        "description": "Write a function called `inside_out()` which takes a nested list as input. The function should modify the list such that each inner list becomes an element within a new outer list, maintaining the same position as it had in the original nested list."
+      },
+      "thought_process": {
+        "steps": [
+          {
+            "step_number": 1,
+            "instruction": "Create a new empty list that will eventually hold the modified structure.",
+            "naming_suggestion": "modified_list",
+            "data_type": "list"
+          },
+          {
+            "step_number": 2,
+            "instruction": "Go through each element of the original nested list.",
+            "naming_suggestions": [
+              "index (Suggested variable name for the loop counter)",
+              "current_element (Suggested variable name for the current element)"
+            ],
+            "data_type": "int, any"
+          },
+          {
+            "step_number": 3,
+            "instruction": "For each element, check if it is a list itself."
+          },
+          {
+            "step_number": 4,
+            "instruction": "If the element is a list, append it to the `modified_list`."
+          },
+          {
+            "step_number": 5,
+            "instruction": "If the element is not a list, create a new list containing only that element.",
+            "naming_suggestion": "new_inner_list",
+            "data_type": "list"
+          },
+          {
+            "step_number": 6,
+            "instruction": "Append this `new_inner_list` to the `modified_list`."
+          },
+          {
+            "step_number": 7,
+            "instruction": "After processing all elements, return the `modified_list`."
+          }
+        ],
+        "function_naming": {
+          "instruction": "The function should be named `inside_out` as specified in the problem description."
+        }
+      },
+      "input_sanitization": {
+        "suggestion": "Consider adding checks to ensure the input is a list. Also, consider what should happen if the input list contains non-list elements."
+      },
+      "test_cases": {
+        "example_input": [
+          "[[1, 2], 3, [4, 5]]",
+          "[1, 2, 3]",
+          "[[1], [2], [3]]",
+          "[1, [2, 3], 4, [5]]"
+        ],
+        "example_output": [
+          "[[1, 2], [3], [4, 5]]",
+          "[[1], [2], [3]]",
+          "[[1], [2], [3]]",
+          "[[1], [2, 3], [4], [5]]"
+        ]
+      }
+    }
+  </expected_output>
+</example>
+
+<instructions>
+  <instruction> Do not provide any Python code in the output. </instruction>
+  <instruction> Focus on the logical flow and algorithmic thinking. </instruction>
+  <instruction> Make sure the output is a VALID JSON string, use `"` instead of `'`. </instruction>
+  <instruction> Ensure the steps are clear, concise, and easy to understand for a beginner. </instruction>
+  <instruction> The steps should be usable as comments in the final Python code. </instruction>
+  <instruction> You can adapt the level of detail in the steps based on the complexity of the problem. </instruction>
+  <instruction> Encourage the use of descriptive variable and function names to improve code readability. </instruction>
+  <instruction> You can optionally include hints or explanations for certain steps, but keep them code-free. </instruction>
+  <instruction> The goal is to guide the student towards the solution, not to give it away directly. </instruction>
+  <instruction> Avoid using Python keywords or code snippets. </instruction>
+  <instruction> Keep note of possible data types for the variables. </instruction>
+  <instruction> Make Suggestions for potential input sanitization and test cases. </instruction>
+  <instruction> Suggest what example output would look like given example input. </instruction>
+</instructions>

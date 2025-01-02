@@ -1,0 +1,51 @@
+<input>
+  <problem_description> Critical server is down and unavailable to users. </problem_description>
+  <action_plan>
+    <step>Diagnose root cause of server outage.</step>
+    <step>Restore server functionality.</step>
+    <step>Test and confirm functionality for users.</step>
+    <step>Document the issue and resolution steps.</step>
+  </action_plan>
+  <staff_expertise>
+    <staff_member>
+      <name>Alice</name>
+      <expertise>Networking (Expert), Troubleshooting (Intermediate)</expertise>
+      <current_workload>2 tickets</current_workload>
+      <availability>High</availability>
+    </staff_member>
+    <staff_member>
+      <name>Bob</name>
+      <expertise>Server Admin (Expert), Documentation (Advanced)</expertise>
+      <current_workload>3 tickets</current_workload>
+      <availability>Moderate</availability>
+    </staff_member>
+    <staff_member>
+      <name>Charlie</name>
+      <expertise>Testing (Expert), Documentation (Intermediate)</expertise>
+      <current_workload>1 ticket</current_workload>
+      <availability>High</availability>
+    </staff_member>
+  </staff_expertise>
+</input>
+
+<output>
+  
+  ## Ticket Assignments
+
+  | Ticket ID | Task Description                               | Assigned To | Dependencies | Priority |
+  | :-------- | :--------------------------------------------- | :---------- | :----------- | :------- |
+  | T-001     | Diagnose root cause of server outage          | Alice       | None         | High     |
+  | T-002     | Restore server functionality                   | Bob         | T-001        | High     |
+  | T-003     | Test and confirm functionality for users       | Charlie     | T-002        | Medium   |
+  | T-004     | Document the issue and resolution steps       | Bob         | T-003        | Low      |
+
+  ## Dashboard View
+
+  | Staff Member | Assigned Tickets | Current Workload After Assignment | Notes                   |
+  | :----------- | :--------------- | :-------------------------------- | :---------------------- |
+  | Alice        | T-001            | 3 tickets                         | Well-utilized expert.   |
+  | Bob          | T-002, T-004     | 5 tickets                         | Moderate workload.      |
+  | Charlie      | T-003            | 2 tickets                         | High availability left. |
+  
+
+</output>

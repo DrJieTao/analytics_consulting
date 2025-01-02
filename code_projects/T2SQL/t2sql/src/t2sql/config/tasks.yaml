@@ -1,0 +1,15 @@
+planning_task:
+  description: >
+    analyze the {USER_QUESTION} and identify the relevant tables and columns in the {DATABASE_SCHEMA}.
+  expected_output: >
+    A Python dictionary in the format of {"table_name1":["column_name1, column_name2"]} that contains all relevant tables and columns to answer {USER_QUESTION}
+  agent: planner
+
+generating_task:
+  description: >
+    Review the context you got and write an SQL query to answer the {USER_QUESTION}, based on the {DATABASE_SCHEMA}. 
+    Make sure the query is syntactically correct SQL query that retrieves the requested information, considering the constraints from the DATABASE_SCHEMA.
+  expected_output: >
+    A fully fledge reports with the mains topics, each with a full section of information.
+    Formatted as markdown without '```'
+  agent: reporting_analyst

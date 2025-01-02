@@ -1,0 +1,51 @@
+
+<input>
+  <problem_description>User unable to access shared network drive.</problem_description>
+  <action_plan>
+    <step>Verify user's network connectivity.</step>
+    <step>Check permissions on the shared drive.</step>
+    <step>Restart the file sharing service on the server.</step>
+    <step>Escalate to server admin if issue persists.</step>
+  </action_plan>
+  <staff_expertise>
+    <staff_member>
+      <name>Diana</name>
+      <expertise>Networking (Intermediate), Windows Server (Beginner)</expertise>
+      <current_workload>0 tickets</current_workload>
+      <availability>Very High</availability>
+    </staff_member>
+    <staff_member>
+      <name>Edward</name>
+      <expertise>Windows Server (Expert), Active Directory (Advanced)</expertise>
+      <current_workload>5 tickets</current_workload>
+      <availability>Low</availability>
+    </staff_member>
+    <staff_member>
+      <name>Fiona</name>
+      <expertise>Troubleshooting (Advanced), User Support (Expert)</expertise>
+      <current_workload>2 tickets</current_workload>
+      <availability>Moderate</availability>
+    </staff_member>
+  </staff_expertise>
+</input>
+
+<output>
+
+  ## Ticket Assignments
+
+  | Ticket ID | Task Description                                      | Assigned To | Dependencies | Priority |
+  | :-------- | :---------------------------------------------------- | :---------- | :----------- | :------- |
+  | T-001     | Verify user's network connectivity                    | Diana       | None         | High     |
+  | T-002     | Check permissions on the shared drive                 | Diana       | T-001        | High     |
+  | T-003     | Restart the file sharing service on the server        | Edward      | T-002        | Medium   |
+  | T-004     | Escalate to server admin if issue persists           | Edward      | T-003        | Low      |
+
+  ## Dashboard View
+
+  | Staff Member | Assigned Tickets | Current Workload After Assignment | Notes                                 |
+  | :----------- | :--------------- | :-------------------------------- | :------------------------------------ |
+  | Diana        | T-001, T-002     | 2 tickets                         | Good fit for initial networking steps. |
+  | Edward       | T-003, T-004     | 7 tickets                         | Handles server-specific tasks.        |
+  | Fiona        | None             | 2 tickets                         | Available for other issues.            |
+
+</output>
