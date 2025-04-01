@@ -1,97 +1,42 @@
-## Deliverable 1: Business Problem Diagnosis Report (Week 1)
+# Deliverables
 
-### Part 1: Plan
-The **plan** for the Business Problem Diagnosis Report focuses on identifying and analyzing a specific business problem that can be addressed using Generative AI (GAI) or Large Language Models (LLM). It includes:
+## Week 1: Foundations - LLMs, Augmentation, and Workflows
 
-- **Design:** Define the business problem with clear objectives, scope, and measurable outcomes (e.g., "Reduce customer churn by 15% in the telecom sector using LLM-driven sentiment analysis").
-- **Development:** Outline a high-level strategy for applying GAI/LLM, such as using LLMs to analyze customer feedback or GAI to generate personalized marketing content. Identify key stages of analysis (inspired by CRISP-DM: business understanding, data understanding, etc.).
-- **Implementation:** Propose a feasible approach within the four-week course duration, including initial steps like stakeholder interviews or data scoping, ensuring alignment with available resources.
+This week focuses on understanding the basics of Large Language Models (LLMs), how they can be augmented with tools and context, the difference between structured workflows and autonomous agents, and identifying potential automation opportunities in a consulting context.
 
-**Example Plan Outline:**
-- Problem: High customer churn in a subscription service.
-- Objective: Improve retention through targeted interventions.
-- Strategy: Use LLM to analyze customer support interactions and identify pain points.
-- Steps: Conduct stakeholder interviews, scope initial data, and prioritize GAI/LLM use cases.
+**Deliverable:**
+*   A short written analysis (e.g., 1-2 pages or equivalent slide deck) identifying a specific, repetitive task or bottleneck within a provided consulting scenario (or one from student experience) suitable for potential automation using an LLM-powered workflow.
+*   Include initial thoughts on how an LLM could contribute to solving or streamlining this task, based on the concepts of basic Q&A or information retrieval discussed.
 
-### Part 2: Prompts
-The **prompts** provide actionable guidance for professionals, tech workers, or AI agents to refine the problem or explore GAI/LLM applications. These prompts are integrated into the report to demonstrate how to execute the plan.
+## Week 2: Building Blocks & Simple Workflow Design
 
-**Example Prompts:**
-- For AI Agents: "Analyze the following customer feedback dataset: [insert sample data]. Identify recurring themes and sentiment trends that could indicate churn risk."
-- For Tech Workers: "Interview stakeholders with this question: 'What are the top three customer complaints you’ve noticed in the past six months?' Summarize findings and suggest how GAI could address them."
-- For Professionals: "Given a business goal of reducing churn, brainstorm five ways LLMs could enhance customer experience. Rank them by feasibility."
+Building on Week 1, this week dives into the core components needed for workflows (LLM, Tools, Context, Orchestration) and focuses on designing simple, linear sequences using conceptual tool calls. Students practice visualizing these workflows.
 
----
+**Deliverable:**
+*   A visual diagram (using tools like Miro, Lucidchart, PowerPoint, or even neatly hand-drawn and scanned) illustrating a simple, single-path workflow designed to address the opportunity identified in Week 1 (or a provided alternative).
+*   The diagram should clearly show the sequence of steps, indicating where the LLM operates and where conceptual "Tools" (like 'Search Database', 'Draft Email') would be invoked.
+*   A brief written justification (e.g., half a page) explaining the logic of the workflow sequence and the purpose of each step.
 
-## Deliverable 2: Data Strategy Report (Week 2)
+## Week 3: Advanced Patterns & Workflow Resilience
 
-### Part 1: Plan
-The **plan** for the Data Strategy Report focuses on the strategic approach to data collection, compliance, and storage to support the GAI/LLM solution identified in Week 1. It includes:
+This week introduces more complex workflow structures, including multi-step processes, prompt chaining, handling errors, incorporating user choices, and considering feasibility. Students will evolve their simple workflow designs.
 
-- **Design:** Identify relevant data sources (e.g., customer reviews, transaction logs) and types (structured/unstructured) needed for the solution, justifying their relevance.
-- **Development:** Detail compliance measures (e.g., GDPR, CCPA) and risk management strategies, such as anonymizing sensitive data or securing access controls.
-- **Implementation:** Recommend a storage solution (e.g., cloud-based database like AWS S3) with a timeline for setup, ensuring scalability, cost-efficiency, and security.
+**Deliverable:**
+*   An updated and more detailed workflow design document for the scenario addressed in Week 2, incorporating concepts from Week 3. This document should include:
+    *   A revised visual diagram showing a multi-step workflow, potentially including decision points, loops (for retries or refinement), or points for user interaction.
+    *   A description of the workflow, explicitly mentioning patterns used (e.g., sequence, conceptual tool use, prompt chaining, user choice points).
+    *   A section discussing potential risks or failure points in the workflow (e.g., ambiguous input, tool failure, inaccurate LLM output) and proposed mitigation strategies (e.g., adding validation steps, fallback procedures, self-correction prompts).
 
-**Example Plan Outline:**
-- Data Sources: Customer support tickets, social media mentions.
-- Compliance: Encrypt PII, ensure opt-in consent for data use.
-- Storage: Use AWS S3 with tiered access; implement by Week 3 for testing.
+## Week 4: Evaluation, Implementation & Client Communication
 
-### Part 2: Prompts
-The **prompts** guide AI agents or tech workers in executing the data strategy, ensuring practical application of the plan.
+The final week focuses on assessing the value and effectiveness of the designed workflow, considering practical and ethical aspects, and communicating the solution to stakeholders. It synthesizes the work from previous weeks into a final package.
 
-**Example Prompts:**
-- For AI Agents: "Given a dataset of customer support tickets, classify entries containing personal information and suggest anonymization techniques compliant with GDPR."
-- For Tech Workers: "Evaluate three cloud storage options (AWS S3, Google Cloud Storage, Azure Blob). Provide a cost-benefit analysis based on scalability and security."
-- For Professionals: "List potential data sources for customer sentiment analysis. Rank them by accessibility and relevance to the churn problem."
-
----
-
-## Deliverable 3: Solution Design and Implementation Plan (Week 3)
-
-### Part 1: Plan
-The **plan** for the Solution Design and Implementation Plan outlines the GAI/LLM solution’s technical and operational framework. It includes:
-
-- **Design:** Select tools/technologies (e.g., Hugging Face for LLMs, no-code platforms like Bubble) with justification based on the problem and constraints.
-- **Development:** Estimate resources (e.g., compute costs, team hours) and perform a cost analysis to ensure feasibility.
-- **Implementation:** Provide a phased roadmap with milestones (e.g., Week 3: Prototype LLM model; Week 4: Test outputs), ensuring alignment with the course timeline.
-
-**Example Plan Outline:**
-- Tool: Fine-tuned BERT model via Hugging Face.
-- Resources: $50 cloud credits, 10 hours of tech support.
-- Roadmap: Week 3 – Model training; Week 4 – Integration into customer support workflow.
-
-### Part 2: Prompts
-The **prompts** assist AI agents or tech workers in executing the design and implementation, offering clear guidance.
-
-**Example Prompts:**
-- For AI Agents: "Using the dataset from Week 2, fine-tune a BERT model to predict churn risk. Output accuracy metrics and top feature insights."
-- For Tech Workers: "Compare Hugging Face and OpenAI APIs for cost and performance on a sentiment analysis task. Recommend one with reasoning."
-- For Professionals: "Draft a timeline for deploying an LLM solution in a customer support team. Include at least three milestones."
-
----
-
-## Deliverable 4: Board-Level Presentation System (Week 4)
-
-### Part 1: Plan
-The **plan** for the Board-Level Presentation System summarizes the strategic approach and its business impact, tailored for executive stakeholders. It includes:
-
-- **Design:** Summarize the solution (e.g., LLM-driven churn prediction) and its benefits (e.g., 20% churn reduction), focusing on clarity and business relevance.
-- **Development:** Outline the creation of presentation materials, including visuals (charts, graphs) and a narrative linking the plan to ROI.
-- **Implementation:** Plan the delivery (e.g., 10-minute Zoom presentation) with a rehearsal schedule and feedback incorporation.
-
-**Example Plan Outline:**
-- Summary: LLM predicts churn, saves $500K annually.
-- Materials: Bar chart of churn trends, cost-benefit table.
-- Delivery: Present to judges on Week 4, Day 1; rehearse Day 0.
-
-### Part 2: Prompts
-The **prompts** guide AI tools or tech workers in refining the presentation, ensuring professional polish.
-
-**Example Prompts:**
-- For AI Agents: "Generate a concise executive summary (100 words) based on this solution: [insert solution details]. Highlight ROI and key benefits."
-- For Tech Workers: "Create a bar chart comparing churn rates before and after LLM implementation using this data: [insert sample data]."
-- For Professionals: "Refine this slide narrative: 'Our LLM solution reduces churn by 20%.' Add two supporting points for a board audience."
-
-
-This structure ensures students not only devise robust strategies but also learn to leverage AI and human expertise effectively, meeting the query’s requirements comprehensively.
+**Deliverable:**
+*   A final "Workflow Proposal Package," presented as if for a client or internal manager. This could be a slide deck (e.g., 5-10 slides) or a concise report (e.g., 3-4 pages) that includes:
+    *   A brief summary of the problem/opportunity.
+    *   The final workflow diagram and description (refined from Week 3).
+    *   Key benefits and expected value (e.g., efficiency gains, improved consistency).
+    *   A discussion of evaluation metrics (how success would be measured).
+    *   Mention of key risks, ethical considerations, and limitations.
+    *   Brief notes on potential next steps (e.g., pilot testing, low-code implementation considerations).
+    *   A brief mention of future possibilities, potentially including agent-based approaches, positioning them relative to the proposed workflow.
