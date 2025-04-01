@@ -180,5 +180,3 @@ The following course outline provides a week-by-week overview of the course cont
 | __4__   | - Define evaluation metrics (KPIs) for workflows<br>- Consider practical & ethical implementation factors<br>- Communicate proposals effectively<br>- Frame agents as future directions | - Develop evaluation criteria<br>- Prepare & present final workflow proposal<br>- Discuss ethical considerations         | - Workflow Proposal Package             |
 
 ---
-
-This syllabus integrates detailed rubrics for each deliverable, providing clear expectations and evaluation criteria for student performance. The focus on strategic planning in Weeks 2 and 3 is reflected in the updated course outline and rubrics, while the original structure, grading policies, and course policies are preserved for consistency and clarity.
