@@ -66,10 +66,10 @@ This class is graded based on a point system with a total of **1,000 points**, d
 
 | **Deliverables**                         | **Point Value** |
 |------------------------------------------|-----------------|
-| Business Problem Diagnosis Report (Week 1) | 250 points      |
-| Data Strategy Report (Week 2)            | 200 points      |
-| Solution Design and Implementation Plan (Week 3) | 150 points |
-| Board-Level Presentation System (Week 4) | 300 points      |
+| Automation Opportunity Analysis (Week 1) | 250 points      |
+| Simple Workflow Design (Week 2)            | 200 points      |
+| Advanced Workflow Design Document (Week 3) | 150 points |
+| Workflow Proposal Package (Week 4) | 300 points      |
 | Professionalism                          | 100 points      |
 | **Total**                                | **1,000 points** |
 
