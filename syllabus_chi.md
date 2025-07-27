@@ -97,7 +97,7 @@ Blackboard上还将提供一个**可选资源列表 (Optional Resource List)**�
 
 ## 交付成果 (Deliverables)
 
-完成的交付成果应通过 **Blackboard** 提交。**不接受**任何其他格式的提交。
+完成的交付成果应通过 **Blackboard** 以PDF格式提交（除非另作说明）。**不接受**任何其他格式的提交。**请务必附上你使用的提示词。**
 
 ### 课程项目：LLM 工作流设计案例研究 (Course Project: LLM Workflow Design Case Study)
 
